@@ -8,7 +8,7 @@ pipeline {
                 archiveArtifacts artifacts: 'dist/demo.zip'
             }
         }
-        stage('Building Docker Image') {
+        stage('Building Docker Images') {
             when {
                 branch 'master'
             }
