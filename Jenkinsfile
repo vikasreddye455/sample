@@ -34,7 +34,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy To Web server') {
+        stage('Deploy the container to Web server') {
             when {
                 branch 'master'
             }
